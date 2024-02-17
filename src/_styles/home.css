@@ -1,0 +1,152 @@
+body {
+    background-color: var(--dark-gray);
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.load {
+    color: white;
+    font-family: 'Kalnia';
+    font-size: 25px;
+}
+
+.load.first {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.load.scroll {
+    margin: 30px auto 0px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.load.no-movies {
+    margin: 90px auto 0px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.album {
+    background-color: var(--dark-gray) !important;
+}
+
+.row {
+    margin-right: 0px !important;
+}
+
+.card, ul, li{
+    list-style: none !important;
+}
+
+.card span {
+    padding: 5px 10px 5px 10px !important;
+
+    text-overflow: ellipsis; /* enables ellipsis */
+    white-space: nowrap; /* keeps the text in a single line */
+    overflow: hidden;
+}
+
+.card p {
+    padding: 5px 10px 0px 10px !important;
+    margin-bottom: 5px !important;
+    font-size: 14px;
+    height: 116px;
+
+    overflow: hidden;
+}
+
+.card-image-background.show {
+    background-color: black;
+}
+
+.card-image-background .card-img-top.show {
+    opacity: 0.5;
+}
+
+.imdb {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imdb.show {
+    display: flex !important;
+}
+.imdb span {
+    color: white;
+    font-size: 30px;
+    font-family: 'Kalnia';
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: context-menu;
+}
+
+.card-button {
+    background-color: var(--dark-gray);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white !important;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Kalnia', serif;
+    text-shadow: 1px 1px 1px black;
+    font-size: 15px;
+}
+.card-button:hover {
+    background-color: #3a5968;
+}
+
+.scroll-top {
+    width: 200px;
+    margin: 30px auto 0px auto;
+    display: table;
+}
+
+.trailer {
+    display: none;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.trailer.show {
+    display: flex !important;
+}
+
+.pogledaj {
+    display: none;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pogledaj.show {
+    display: flex !important;
+}
+
+@media (max-width: 575px) {
+    .card{
+        width: 80%;
+        
+        margin: auto;
+    }
+    .card img{
+        height: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .card{
+        width: 90%;
+    }
+}

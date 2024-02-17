@@ -1,0 +1,12 @@
+.searchIcon{
+    fill: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+
+.close-svg{
+    fill: white;
+    height: 50px;
+    width: 50px;
+}

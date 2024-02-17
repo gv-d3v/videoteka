@@ -1,0 +1,117 @@
+.navbar {
+   padding: 10px;
+   background-color: var(--gray) !important;
+   border-bottom-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+   border-bottom: solid 2px var(--white);
+}
+.dropdown-menu {
+   background-color: var(--gray) !important;
+   border: 1px solid var(--white);
+}
+.dropdown-menu a {
+   font-size: 16px !important;
+}
+.dropdown-menu a:hover {
+   background-color: var(--light-gray);
+}
+.navbarbrand {
+   font-family: "Pixel" !important;
+   text-decoration: none;
+   color: white;
+   font-size: 27px !important;
+
+   margin-left: 20px;
+   margin-top: -5px;
+}
+.navbar a,
+.navbar button,
+.navbar button:active {
+   font-family: "Kalnia", serif;
+
+   color: white !important;
+   font-size: 18px;
+   text-shadow: 1px 1px 1px black;
+}
+
+.navbar-nav {
+   margin-left: auto;
+   margin-right: calc(50%);
+}
+
+.searchBar {
+   margin-left: auto;
+   margin-right: 20px;
+}
+
+.searchBar input {
+   box-shadow: 0.5px 0.5px 1px black;
+}
+
+.searchBar input:focus {
+   box-shadow: 0.5px 0.5px 2px black;
+}
+
+.searchButton {
+   border: 1px solid white;
+   box-shadow: 0.5px 0.5px 1px black;
+   padding: 3px 13px 3px 20px;
+   border-radius: 20px;
+   background-color: #4f5147;
+   display: inline-flex;
+   font-size: 19px !important;
+}
+
+.searchButton:hover,
+.searchButton:focus,
+.searchButton:active,
+.searchButton:visited,
+.searchButton:target {
+   background-color: #5d5f53 !important;
+   border: 1px solid white !important;
+   color: white !important;
+   box-shadow: 0.5px 0.5px 2px black !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler:hover,
+:focus-visible {
+   border: none !important;
+   box-shadow: none;
+
+   margin-bottom: auto;
+   margin-right: -5px;
+}
+
+@media (max-width: 991px) {
+   .navbarbrand {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      left: 27px;
+   }
+   .navbar-nav {
+      margin-left: auto;
+      margin-right: 10px;
+   }
+   .nav-item {
+      margin-left: auto;
+   }
+
+   .dropdown-menu {
+      position: absolute !important;
+      left: -80px !important;
+   }
+}
+
+@media (max-width: 390px) {
+   .navbar-toggler {
+      margin-right: -10px !important;
+   }
+   .navbarbrand {
+      left: 20px;
+   }
+}

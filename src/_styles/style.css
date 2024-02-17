@@ -1,0 +1,11 @@
+@import 'colors.css';
+@import './fonts.css';
+@import 'icons.css';
+@import 'navbar.css';
+@import 'search.css';
+@import 'home.css';
+@import 'home-movie-page.css';
+@import 'trailer-window.css';
+@import 'genres.css';
+@import 'modal.css';
+@import './buttons/scroll-top.css'

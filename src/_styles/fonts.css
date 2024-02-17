@@ -1,0 +1,19 @@
+@font-face {
+   font-family: "NewsGothicBold";
+   src: URL("./fonts/NewsGothicBold.otf") format("truetype");
+}
+@font-face {
+   font-family: "NewsGothicRegular";
+   src: URL("./fonts/NewsGothicRegular.otf") format("truetype");
+}
+
+@font-face {
+   font-family: "Pixel";
+   src: URL("./fonts/Silkscreen-Regular.ttf") format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@400&display=swap");

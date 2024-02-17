@@ -1,0 +1,94 @@
+#staticBackdrop {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+#staticBackdrop.center {
+   display: flex !important;
+}
+
+.modal-dialog {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.modal-content {
+   background-color: var(--gray);
+   box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.5);
+}
+
+.modal-header.logo h1 {
+   color: white;
+   text-align: center;
+   margin: auto;
+   font-family: "Pixel" !important;
+   text-decoration: none;
+   font-style: italic;
+   font-size: 27px !important;
+}
+
+.modal-header.signin h1 {
+   margin: 0;
+   color: white;
+   text-shadow: 1px 1px 1px black;
+   padding-left: 50px;
+   font-family: "Kalnia";
+}
+.modal-body {
+   color: white;
+   font-family: "Kalnia";
+   text-shadow: 1px 1px 1px black;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.modal-body input {
+   border-radius: 10px;
+}
+
+.row.password {
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+
+.row.err {
+   background-color: rgba(194, 13, 13, 0.885);
+   padding: 10px;
+   font-size: 13px;
+   display: none;
+   border-radius: 20px;
+   text-align: center;
+   text-shadow: 0px 0px 4px black;
+}
+
+.row.err.show {
+   display: inherit;
+}
+
+.exitButton {
+}
+.loginButton {
+   background-color: var(--dark-gray);
+   opacity: 0.9;
+   border: none;
+}
+
+.loginButton:hover,
+.loginButton:active,
+.loginButton:focus {
+   background-color: var(--dark-gray);
+   opacity: 1;
+}
+
+@media (max-width: 500px) {
+   .modal-header.signin h1 {
+      padding-left: 10%;
+      font-size: 18px !important;
+   }
+   .modal-body {
+      width: 80% !important;
+      padding-left: 0;
+      padding-right: 0;
+      margin: auto;
+   }
+}

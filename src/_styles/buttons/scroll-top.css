@@ -1,0 +1,23 @@
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--gray);
+    color: #fff;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+  }
+  .scroll-to-top-button svg{
+    fill: white;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .scroll-to-top-button.visible {
+    opacity: 1;
+  }

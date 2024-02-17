@@ -1,0 +1,374 @@
+.movie-page {
+   margin-top: 20px;
+}
+
+.movie-page h1 {
+   color: var(--white);
+   font-size: 50px;
+   text-shadow: 2px 2px 2px black;
+   margin: 10px 0 20px 0;
+   font-family: "Kalnia";
+}
+
+.movie-info {
+   margin-bottom: 10px;
+}
+
+/*LEFT*/
+.year-genre {
+   display: flex;
+   margin-bottom: 10px;
+   margin-right: 5px;
+}
+
+.runtime {
+   margin: 10px 0;
+}
+
+.runtime {
+   margin-top: 10px;
+}
+
+.year p,
+.time p {
+   color: var(--white);
+   font-size: 16px;
+   text-shadow: 2px 2px 2px black;
+   margin: auto;
+   margin-left: 5px;
+}
+
+.genre {
+   display: flex;
+   justify-content: right;
+}
+
+.genre p {
+   color: var(--white);
+   font-size: 16px;
+   text-shadow: 2px 2px 2px black;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.genre span {
+   margin: 0 6px;
+}
+
+.movie-page-img {
+   width: 450px;
+}
+
+/*RIGHT*/
+
+.right-container {
+   margin-top: 30px;
+   margin-left: 20px;
+}
+.text {
+   color: var(--white);
+   font-family: "Kalnia";
+}
+
+/*RATINGS*/
+.all-ratings {
+   margin-top: 10px;
+}
+
+.ratings {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.imgWidth {
+   width: 100px;
+   text-align: center;
+}
+
+.ratings img {
+   height: 45px;
+}
+
+.ratings span {
+   color: var(--white);
+   font-size: 30px;
+   margin-left: 20px;
+   width: 100px;
+   text-align: center;
+   font-family: "Kalnia";
+   margin-bottom: auto;
+   margin-top: auto;
+}
+
+/*ROLES*/
+.text.role {
+   display: inline;
+}
+.roles-bg {
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   margin-bottom: 10px;
+   padding: 15px 40px;
+}
+.actors {
+   margin-right: 9px;
+}
+
+/*STORY*/
+.text-bg {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 30px 40px;
+   border-radius: 5px;
+   max-height: 335px;
+   overflow-y: auto;
+   scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0);
+   scrollbar-width: thin;
+}
+
+/*MOVIE*/
+.movie-frame {
+   margin-top: 45px;
+   background-color: black;
+   width: 100%;
+   height: 500px;
+   margin-bottom: 30px;
+   border-radius: 20px;
+}
+.movie-frame p {
+   color: white;
+   font-size: 25px;
+   padding: 20px 0px 0px 20px;
+}
+.watch-movie {
+   height: 360px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.watch-movie .play {
+   background-color: var(--gray);
+   width: 160px;
+   height: 80px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+   cursor: pointer;
+   fill: rgba(0, 0, 0, 0.9);
+   border: solid rgba(0, 0, 0, 0.6) 1px;
+}
+
+.watch-movie .play:hover {
+   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+   fill: rgba(0, 0, 0, 1);
+}
+
+/*KOMENTARI*/
+.comments h4 {
+   color: white;
+   font-family: "Kalnia";
+   margin-bottom: 10px;
+}
+
+.comment-section {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.user,
+.user-comment {
+   background-color: rgba(0, 0, 0, 0.5);
+
+   color: white;
+   padding: 10px;
+}
+
+.user {
+   margin-top: 10px;
+   display: flex;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+.comment-username {
+   color: rgb(215, 214, 214);
+}
+
+.comment-date {
+   color: gray;
+   font-size: 14px;
+}
+
+.user-comment {
+   margin-bottom: 10px;
+   padding-left: 20px !important;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.user-comment span {
+   margin-bottom: 10px;
+}
+
+.comment-form {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.comment-info {
+   display: grid;
+   color: white;
+   font-family: "Kalnia";
+   font-size: 14px;
+   margin-top: 10px;
+}
+
+.comment-info span {
+   margin-left: 12px;
+   margin-bottom: 2px;
+}
+
+.comment-info input,
+textarea {
+   border-radius: 20px;
+   padding-left: 10px;
+   background-color: var(--white);
+}
+.comment-input {
+   margin-top: 10px;
+}
+
+.comment-button {
+   display: flex;
+   justify-content: end;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.comment-button button {
+   border-radius: 20px;
+   padding: 5px 10px;
+}
+
+.load.no-comments {
+   margin: 50px auto 60px auto;
+   width: 100%;
+   text-align: center;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+   .movie-page-img,
+   .year-genre {
+      width: 50%;
+      margin-left: 25%;
+   }
+
+   .movie-page h1 {
+      font-size: 33px !important;
+   }
+
+   .genre p,
+   .year p,
+   .time p {
+      font-size: 13px;
+   }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+   .movie-page h1 {
+      font-size: 30px;
+   }
+   .movie-page-img {
+      width: 80%;
+      margin-left: 10%;
+   }
+   .left-empty {
+      display: none;
+   }
+
+   .comment-form {
+      margin: auto;
+      margin-left: 10px;
+   }
+}
+
+@media (max-width: 575px) {
+   .row {
+      margin-right: auto !important;
+      margin-left: auto !important;
+   }
+   .movie-info {
+      margin: auto;
+   }
+   .movie-page h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+   }
+   .genre p,
+   .year p,
+   .time p {
+      font-size: 13px;
+   }
+   .year-genre {
+      margin-top: 5px;
+   }
+
+   .movie-page-img {
+      width: 100%;
+   }
+   .all-ratings {
+      margin-bottom: 30px;
+   }
+
+   .right-container {
+      margin-left: auto;
+   }
+   .role span {
+      padding-left: 0px;
+      font-size: 15px !important;
+   }
+   .role,
+   .text {
+      font-size: 15px;
+   }
+   .movie-frame {
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+   }
+   .player-label {
+      font-size: 12px !important;
+      padding-left: 10px !important;
+   }
+   .watch-movie {
+      height: 100px;
+   }
+   .play {
+      width: 100px !important;
+      height: 50px !important;
+      border-radius: 20px;
+   }
+   .left-empty {
+      display: none;
+   }
+
+   .comment-button button {
+      width: 150px;
+   }
+}
+
+@media (max-width: 350px) {
+   .genre p,
+   .year p,
+   .time p {
+      font-size: 10px;
+   }
+
+   .user-comment {
+      font-size: 13px;
+   }
+}
